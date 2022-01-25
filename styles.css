@@ -147,6 +147,7 @@
     font-family: "Red Hat Display", sans-serif;
     text-decoration-line: underline;
     color: #382ae1;
+    font-style: normal;
   }
 
   .change:hover {
@@ -159,6 +160,7 @@
     line-height: 19px;
     font-family: "Red Hat Display", sans-serif;
     color: #766cf1;
+    font-style: normal;
   }
 
   .payment-button {
