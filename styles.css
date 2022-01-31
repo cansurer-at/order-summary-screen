@@ -97,12 +97,39 @@ body {
   text-decoration: underline;
 }
 
+.change-btn:hover {
+  padding:0rem 0rem 0rem 5.875rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-align: left;
+  color: #766CF1;
+  border: none;
+  overflow: visible;
+  background: transparent;
+  text-decoration: none;
+
+}
+
+
 .proceed-btn {
   margin: 1.3rem 3rem 0rem 3rem;
   padding: 0.93rem 0rem;
   border-radius: 11px;
   box-shadow: 0 1.25rem 1.25rem 0 rgba(56, 42, 225, 0.19);
   background-color: #382ae1;
+  color: #fff;
+  font-size: 0.938rem;
+  font-weight: 900;
+  text-align: left;
+  text-align: center;
+}
+
+.proceed-btn:hover {
+  margin: 1.3rem 3rem 0rem 3rem;
+  padding: 0.93rem 0rem;
+  border-radius: 11px;
+  background: #766CF1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   color: #fff;
   font-size: 0.938rem;
   font-weight: 900;
@@ -121,3 +148,16 @@ body {
   overflow: visible;
   background: transparent;
 }
+
+.cancel-btn:hover {
+  margin: 2rem 0px 3rem 0px;
+  font-size:  0.938rem;
+  font-weight: 900;
+  align-self: center;
+  color: #1F2E55;
+  border: none;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
+}
+
