@@ -83,12 +83,17 @@ body {
   font-weight: 500;
 }
 
-.change-text {
+.change-btn {
   margin-left: 5.875rem;
   font-size: 14px;
   font-weight: bold;
   text-align: left;
   color: #382ae1;
+  border: none;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
+  text-decoration: underline;
 }
 
 .proceed-btn {
@@ -104,10 +109,14 @@ body {
   text-align: center;
 }
 
-.cancel-text {
+.cancel-btn {
   margin: 2rem 0px 3rem 0px;
   font-size: 15px;
   font-weight: 900;
   align-self: center;
   color: #717fa6;
+  border: none;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
 }
